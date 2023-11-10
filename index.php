@@ -2,6 +2,8 @@
 
 require 'includes/database.php';
 
+$conn = getDB();
+
 $sql = "SELECT *
         FROM article
         ORDER BY published_at;";
