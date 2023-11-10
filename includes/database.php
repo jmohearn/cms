@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Get the database connection
+ * 
+ * @return object Connection to a MySQL server
+ */
+
 function getDB() {
     $db_host = 'localhost';
     $db_name = 'cms';
